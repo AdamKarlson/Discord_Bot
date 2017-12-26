@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 
-client.login("Mzg3OTIxMjk4OTg4MjA0MDMy.DQlfZA.Dr2kfjtzMLyXyyX4_ePe3nbsAL8");		//login. should never be disclosed
+		//login. should never be disclosed
 
 client.on("ready", () => {
   console.log("I am ready!");					//When the bot becomes active, it prints this to the console
